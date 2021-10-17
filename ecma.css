@@ -3,7 +3,6 @@ header .logo{
     color: #ff7b00;
     font-size: 40px;
     text-decoration: none;
-    text-transform: uppercase;
   }
   header .navigation a:not(:last-child){
     margin-right: 30px;
