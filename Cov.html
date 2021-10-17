@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="cov.css">
+  </head>
+<div id="main">
+  <section>
+    <header>
+      <h2><a href="index.html" class="logo">Home.</a></h2>
+      <div class="navigation">
+        <a href="Res.html">Restaurant</a>
+        <a href="tre.html">Trends</a>
+        <a href="Tri.html">Tribute</a>
+        <a href="Act.html">Activities</a>
+      </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="title">
+          Vaccination Scheduling Form
+        </div>
+        <div class="form">
+           <div class="inputfield">
+              <label>First Name</label>
+              <input type="text" class="input">
+           </div>  
+            <div class="inputfield">
+              <label>Last Name</label>
+              <input type="text" class="input">
+           </div>  
+           <div class="inputfield">
+            <label>Vaccine Name/Manufacturer</label>
+            <input type="text" class="input">
+         </div>  
+         <div class="inputfield">
+            <label>1st Dose</label>
+           <input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1997-01-01" max="2030-12-31">
+         </div>  
+         <div class="inputfield">
+            <label>2nd Dose</label>
+            <input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1997-01-01" max="2030-12-31">
+         </div>  
+            <div class="inputfield">
+              <label>Gender</label>
+              <div class="custom_select">
+                <select>
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+           </div> 
+            <div class="inputfield">
+              <label>Email Address</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Phone Number</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Address</label>
+              <textarea class="textarea"></textarea>
+           </div> 
+          <div class="inputfield">
+              <label>Postal Code</label>
+              <input type="text" class="input">
+           </div> 
+          <div class="inputfield terms">
+              <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Agreed to terms and conditions</p>
+           </div> 
+          <div class="inputfield">
+            <input type="submit" value="Register" class="btn">
+          </div>
+        </div>
+    </div>
